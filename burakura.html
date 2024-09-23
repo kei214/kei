@@ -1,8 +1,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
 <script>
-const url = "https://castoroides.github.io/burakura/2_burakura_kari.html"
+const url = ""
 function draw() {
-	//無限タブ増殖
 	window.open(url, "_blank")
 }
 function buttonClick(){
@@ -10,7 +9,6 @@ function buttonClick(){
 		alert("あと" + i + "回押してね（笑）");
 	}
 }
-// Close字のメッセージ
 window.onbeforeunload = function(e) {
 	e.returnValue = "また来てね＾＾";
 }
